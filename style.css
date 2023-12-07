@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #070707;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the page fills the viewport */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    color: #db0303;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* To include padding in width calculation */
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Adjust the width as needed */
+    margin: 15px auto;
+}
+
+h1 {
+    background-color: #db0303;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Ensure the headings take full width */
+    box-sizing: border-box;
+   
+
+}
+
+h2, h3 {
+    color: rgb(247, 242, 242);
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Ensure the headings take full width */
+    box-sizing: border-box; /* To include padding in width calculation */
+}
+
+main {
+    padding: 20px;
+    width: 80%; /* Adjust the width as needed */
+    box-sizing: border-box; /* To include padding in width calculation */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+
